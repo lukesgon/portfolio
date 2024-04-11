@@ -1,0 +1,12 @@
+#general-subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--second-color);
+}
+
+.education-subtitle {
+    font-size: 1.1rem;
+    color: var(--second-color);
+
+    padding-bottom: 0.5rem;
+}

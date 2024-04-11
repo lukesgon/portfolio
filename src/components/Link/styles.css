@@ -1,0 +1,55 @@
+.topic-link {
+    font-weight: bold;
+    
+    transition: 300ms;
+
+    width: fit-content;
+    padding: 0.2rem 0.3rem;
+
+    border-radius: 0.3rem;
+}
+
+.topic-link:hover {
+    cursor: pointer;
+    color: var(--thirth-color);
+    
+    box-shadow: 0 0 15px var(--thirth-color);
+}
+
+.topic-color {
+    color: var(--thirth-color);
+}
+
+.project-links {
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    transition: 300ms;
+
+    width: fit-content;
+    padding: 0.3rem;
+
+    border-radius: 0.3rem;
+
+    background-color: var(--first-color);
+    margin: 0.5rem;
+}
+
+.project-links:hover {
+    color: var(--thirth-color);
+    box-shadow: 0 0 15px var(--thirth-color);
+}
+
+.link-coop-profile {
+    color: var(--thirth-color);
+    font-weight: bold;
+    padding: 0.2rem;
+    transition: 300ms;
+}
+
+.link-coop-profile:hover {
+    cursor: pointer;
+    border-radius: 0.3rem;
+    padding: 0.2rem;
+    box-shadow: 0 0 15px var(--thirth-color);
+}

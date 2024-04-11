@@ -1,0 +1,22 @@
+.topic-subtitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--second-color);
+
+    padding-bottom: 0.5rem;
+}
+
+.educational-card-title {
+    color: var(--thirth-color);
+    font-size: 1.1rem;
+}
+
+.educational-card-subtitle{
+    color: var(--second-color);;
+    padding-bottom: 0.3rem;
+}
+
+.tecs-subtitle {
+    color: var(--thirth-color);
+    text-align: center;
+}

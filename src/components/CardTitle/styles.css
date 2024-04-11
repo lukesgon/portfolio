@@ -1,0 +1,20 @@
+#contact-title {
+    color: var(--thirth-color);
+    font-size: 1.5rem;
+}
+
+.topic-titles {
+    font-size: 1.5rem;
+    color: var(--thirth-color);
+    scroll-margin-top: 35px;
+
+    margin-bottom: 0.5rem;
+}
+
+
+.project-title {
+    color: var(--thirth-color);
+    margin-bottom: 0.5rem;
+
+    font-size: 1.5rem;
+}

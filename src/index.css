@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    font-size: 16px;
+
+    --zero-color: #ffffff;
+    --first-color: #1D1D20;
+    --second-color: #6b6b80;
+    --thirth-color: rgb(230, 154, 48);
+    --fourth-color: #09090A;
+}
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--zero-color);
+    text-decoration: none;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: var(--fourth-color)
+}
+
+::selection {
+    background-color: var(--thirth-color);
+
+    color: var(--first-color);
+}

@@ -1,0 +1,21 @@
+
+.nav-button {
+    font-weight: bold;
+    font-size: 1rem;
+    
+    transition: 300ms;
+
+    width: fit-content;
+    padding: 0.2rem 0.3rem;
+
+    border-radius: 0.3rem;
+
+    background-color: var(--first-color);
+}
+
+.nav-button:hover {
+    cursor: pointer;
+    color: var(--thirth-color);
+    
+    box-shadow: 0 0 15px var(--thirth-color);
+}

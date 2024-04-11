@@ -1,0 +1,35 @@
+.skill-iconbox {
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    min-width: 4.3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms;
+}
+
+.skill-iconbox:hover {
+    box-shadow: 0 0 15px var(--thirth-color);
+}
+
+.skill-iconbox figcaption {
+    padding-top: 0.3rem;
+    
+    font-size: 0.8rem;
+}
+
+.tec-iconbox {
+    margin: 0.3rem 0;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tec-iconbox figcaption {
+    font-size: 0.75rem;
+    padding-top: 0.2rem;
+}

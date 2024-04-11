@@ -1,0 +1,94 @@
+.portal-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contact-section {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 1rem;
+}
+
+.contact-channels {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#topics {
+    padding-top: 1rem ;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#content-display {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 40%;
+    padding: 2.5rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    background-color: var(--fourth-color);
+
+}
+
+
+.education-display {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    padding-bottom: 0.5rem;
+}
+
+
+.skills-display {
+    background-color: var(--fourth-color);
+    
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.project-general{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.project-subsection {
+    width: fit-content;
+}
+
+.used-tecs {
+    margin-top: 0.2rem;
+    padding-top: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+}

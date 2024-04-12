@@ -8,11 +8,11 @@ import Home from './pages/Home'
 const router = createBrowserRouter(
   [
     {
-      path:'/',
+      path:'https://lukesgon.github.io/portfolio/',
       element: <Root />,
       children: [
         {
-          path:'/home',
+          path:'/',
           element: <Home />
         }
       ]

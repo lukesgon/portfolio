@@ -1,6 +1,5 @@
 {
-  "name": "my-project",
-  "private": true,
+  "name": "portfolio",
   "version": "0.1.0",
   "type": "module",
   "homepage": "https://lukesgon.github.io/portfolio/",

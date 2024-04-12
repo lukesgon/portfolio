@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createHashRouter } from 'react-router-dom'
 import Root from './pages/Root'
 import Home from './pages/Home'
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   [
     {
-      path:'https://lukesgon.github.io/portfolio/',
+      path:'/portfolio/',
       element: <Root />,
       children: [
         {
@@ -22,6 +22,6 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={ router } />
+      <RouterProvider router={ router } />
   </React.StrictMode>,
 )

@@ -20,12 +20,12 @@
     box-shadow: 0 0 15px var(--thirth-color);
 }
 
-@media (min-resolution: 96dpi) {
+@media only screen and (orientation: portrait) and (min-width: 720px) {
     .nav-button {
-        font-size: 4rem;
+        font-size: 3.3rem;
         
         min-width: 19rem;
-        padding: 1.8rem;
+        padding: 1.2rem;
         border-radius: 1.2rem;
 
         text-align: center;

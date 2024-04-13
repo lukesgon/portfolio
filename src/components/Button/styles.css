@@ -19,3 +19,27 @@
     
     box-shadow: 0 0 15px var(--thirth-color);
 }
+
+@media (min-resolution: 299dpi) {
+    .nav-button {
+        font-size: 4rem;
+        
+        min-width: 19rem;
+        padding: 1.8rem;
+        border-radius: 1.2rem;
+
+        text-align: center;
+    }
+}
+
+/* @media (max-height: 1080px) {
+    .nav-button {
+        font-size: 4rem;
+        
+        padding: 1.5rem;
+        min-width: 19rem;
+        border-radius: 1rem;
+
+        text-align: center;
+    }
+} */

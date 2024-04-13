@@ -8,7 +8,7 @@ import Home from './pages/Home'
 const router = createHashRouter(
   [
     {
-      path:'/portfolio/',
+      path:'/',
       element: <Root />,
       children: [
         {

@@ -20,7 +20,7 @@
     box-shadow: 0 0 15px var(--thirth-color);
 }
 
-@media (min-resolution: 299dpi) {
+@media (min-resolution: 96dpi) {
     .nav-button {
         font-size: 4rem;
         

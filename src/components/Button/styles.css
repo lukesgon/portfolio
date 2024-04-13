@@ -32,7 +32,7 @@
     }
 }
 
-/* @media (max-height: 1080px) {
+@media only screen and (min-width: 720px) and (orientation: landscape) {
     .nav-button {
         font-size: 4rem;
         
@@ -42,4 +42,4 @@
 
         text-align: center;
     }
-} */
+}

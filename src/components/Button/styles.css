@@ -34,11 +34,10 @@
 
 @media only screen and (min-width: 720px) and (orientation: landscape) {
     .nav-button {
-        font-size: 2rem;
+        font-size: 1rem;
         
-        padding: 1.2rem;
-        min-width: 12rem;
-        border-radius: 1rem;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
 
         text-align: center;
     }

@@ -470,7 +470,6 @@ const Home = () => {
                 </ContentCard>
 
             </ContentSection>
-            <footer>teste</footer>
         </>
     )
 };

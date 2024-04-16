@@ -47,6 +47,11 @@
 
 }
 
+@media only screen and (min-resolution: 240dpi) {
+    #content-display {
+        padding: 4em 0.5rem;
+    }
+}
 
 .education-display {
     display: flex;

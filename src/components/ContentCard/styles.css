@@ -54,6 +54,12 @@
     background-color: var(--first-color);
 }
 
+@media only screen and (min-resolution: 240dpi) and (orientation: landscape) {
+    #start-menu {
+        right: 63%;
+    }
+}
+
 .topic-section {
     scroll-margin-top: 42px;
 

@@ -1,0 +1,22 @@
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 40%;
+    right: 0;
+
+    background-color: var(--fourth-color);
+
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+
+    padding: 0.5rem 1.2rem;
+
+    z-index: 150;
+}
+
+@media only screen and (min-resolution: 240dpi) and (orientation: landscape) {
+    #nav-bar {
+        padding-right: 1.8rem;
+    }
+}

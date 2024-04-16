@@ -462,6 +462,10 @@ const Home = () => {
                                         <SiJavascript />
                                     </IconBox>
 
+                                    <IconBox className='tec-iconbox' caption='Firebase' iconSize='1.6rem'>
+                                        <SiFirebase />
+                                    </IconBox>
+
                                 </ContentSection>
                             </ContentSection>
                         </ContentSection>

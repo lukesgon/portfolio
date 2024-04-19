@@ -22,6 +22,7 @@ import ToDoTaskerThumb from '../../assets/img/tasker-thumb.png';
 import ToDoListThumb from '../../assets/img/to-do-thumb.png';
 import ChaveiroGelsonThumb from '../../assets/img/chaveiro-gelson.png';
 import { SiFirebase } from "react-icons/si";
+import Logo from '../../assets/img/logo-lucas.png';
 
 
 const Home = () => {
@@ -58,7 +59,7 @@ const Home = () => {
         <>
             <ContentCard id='start-menu'>
                 <ContentSection id='nav-title'>
-                    <ImgBox src='./src/assets/img/logo-lucas.png' alt='logo' imgClassName='general-logo'></ImgBox>
+                    <ImgBox src={ Logo } alt='logo' imgClassName='general-logo'></ImgBox>
                     <ContentSection id='title-menu'>
                         <Title id='general-title'>Lucas Gonçalves</Title>
                         <SubTitle id='general-subtitle'>Dev. Front-End Júnior</SubTitle>

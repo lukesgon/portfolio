@@ -1,14 +1,16 @@
 
 .nav-button {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
     
     transition: 300ms;
 
-    width: fit-content;
-    padding: 0.2rem 0.3rem;
+    min-width: 4.2rem;
+    padding: 0.3rem;
 
-    border-radius: 0.3rem;
+    border-radius: 0.5rem;
+
+    text-align: center;
 
     background-color: var(--first-color);
 }
@@ -18,18 +20,6 @@
     color: var(--thirth-color);
     
     box-shadow: 0 0 15px var(--thirth-color);
-}
-
-@media only screen and (orientation: portrait) {
-    .nav-button {
-        font-size: 2.3rem;
-        
-        min-width: 9rem;
-        padding: 0.3rem;
-        border-radius: 0.5rem;
-
-        text-align: center;
-    }
 }
 
 @media only screen and (min-resolution: 240dpi) and (orientation: landscape) {

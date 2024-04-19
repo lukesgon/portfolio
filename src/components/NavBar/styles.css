@@ -1,26 +1,23 @@
 #nav-bar {
     position: fixed;
     top: 0;
-    left: 35%;
+    left: 0;
     right: 0;
-    z-index: 150;
+    z-index: 300;
+
+    height: 3.2rem;
 
     display: flex;
     justify-content: end;
-    gap: 10px;
-    padding: 1rem;
+    align-items: end;
+    gap: 5px;
+    padding: 0.5rem;
 
-    background-color: var(--fourth-color);
 }
 
 @media only screen and (min-width: 1080px) {
     #nav-bar {
-        padding: 0.5rem 2rem;
+        padding: 0.5rem 1rem;
     }
 }
 
-@media only screen and (orientation: portrait) {
-    #nav-bar {
-        left: 0;
-    }
-}

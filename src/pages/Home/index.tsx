@@ -57,8 +57,13 @@ const Home = () => {
     return (
         <>
             <ContentCard id='start-menu'>
-                <Title id='general-title'>Lucas Gonçalves</Title>
-                <SubTitle id='general-subtitle'>Dev. Front-End Júnior</SubTitle>
+                <ContentSection id='nav-title'>
+                    <ImgBox src='./src/assets/img/logo-lucas.png' alt='logo' imgClassName='general-logo'></ImgBox>
+                    <ContentSection id='title-menu'>
+                        <Title id='general-title'>Lucas Gonçalves</Title>
+                        <SubTitle id='general-subtitle'>Dev. Front-End Júnior</SubTitle>
+                    </ContentSection>
+                </ContentSection>
                 <ContentSection id='topics'>
                     <HashLink
                     smooth

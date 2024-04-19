@@ -4,16 +4,23 @@
     transition: 300ms;
 
     width: fit-content;
-    padding: 0.2rem 0.3rem;
 
-    border-radius: 0.3rem;
+    /* border-radius: 0.3rem; */
+
+    font-size: 0.7rem;
 }
 
 .topic-link:hover {
     cursor: pointer;
-    color: var(--thirth-color);
     
     box-shadow: 0 0 15px var(--thirth-color);
+}
+
+@media only screen and (orientation: portrait) {
+    .topic-link:hover {
+        color: none;
+        box-shadow: none;
+    }
 }
 
 .topic-color {

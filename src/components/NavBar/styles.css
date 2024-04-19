@@ -3,21 +3,27 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 300;
+    z-index: 250;
 
-    height: 3.2rem;
+    height: fit-content;
 
     display: flex;
     justify-content: end;
-    align-items: end;
+    align-items: center;
     gap: 5px;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
 
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (orientation: landscape) {
     #nav-bar {
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 1.5rem;
+        background-color: var(--fourth-color);
     }
 }
 
+@media only screen and (min-width: 2160px){
+    #nav-bar {
+        padding-right: 30.9%;
+    }
+}

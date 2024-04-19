@@ -2,3 +2,9 @@
     font-size: 1.3rem;
     color: var(--thirth-color);
 }
+
+@media (orientation: landscape) {
+    #general-title {
+        font-size: 1.5rem;
+    }
+}

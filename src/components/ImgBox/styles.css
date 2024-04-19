@@ -41,3 +41,23 @@
 .general-logo {
     width: 2.3rem;
 }
+
+@media only screen and (orientation: landscape) {
+    .general-logo {
+        width: 3rem;
+    }
+}
+
+.profile-thumb {
+    width: 50%;
+    border: solid 5px var(--fourth-color);
+    border-radius: 50%;
+}
+
+.fig-thumb {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+}

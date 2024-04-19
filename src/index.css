@@ -33,3 +33,13 @@ body {
 
     color: var(--first-color);
 }
+
+@media only screen and (orientation: landscape) and (min-width: 2160px) {
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    #root {
+        width: 40%;
+    }
+}

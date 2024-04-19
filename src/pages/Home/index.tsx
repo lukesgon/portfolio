@@ -23,7 +23,7 @@ import ToDoListThumb from '../../assets/img/to-do-thumb.png';
 import ChaveiroGelsonThumb from '../../assets/img/chaveiro-gelson.png';
 import { SiFirebase } from "react-icons/si";
 import Logo from '../../assets/img/logo-lucas.png';
-
+import ProfileThumb from '../../assets/img/lucas-thumb.jpg';
 
 const Home = () => {
     const [activeTopic, setActiveTopic] = useState('to-about');
@@ -65,6 +65,7 @@ const Home = () => {
                         <SubTitle id='general-subtitle'>Dev. Front-End Júnior</SubTitle>
                     </ContentSection>
                 </ContentSection>
+
                 <ContentSection id='topics'>
                     <HashLink
                     smooth
@@ -104,6 +105,7 @@ const Home = () => {
             <ContentSection id='content-display'>
                 <ContentCard className='topic-section' id="about">
                     <CardTitle className='topic-titles'>Sobre Mim</CardTitle>
+                    <ImgBox src={ ProfileThumb } alt='Imagem de Perfil' imgClassName='profile-thumb' figClassName='fig-thumb' />
                     <CardSubTitle className='topic-subtitle'>
                         Apresentação
                     </CardSubTitle>
@@ -117,7 +119,7 @@ const Home = () => {
                     Atualmente, estou comprometido em aplicar noções adquiridas na arquitetura, como a interpretação de desafios multidisciplinares, para o desenvolvimento front-end. Busco sempre perspectivas inovadoras, mas com soluções práticas e acuradas para os projetos em que me envolvo.
                     </Paragraph>
                     <Paragraph className='topic-paragraph'>
-                    Já tive a oportunidade de participar de cursos como a introdução ao desenvolvimento web, através da Faculdade Descomplica, recentemente sendo aprovado em uma concorrida seleção para cursar Desenvolvimento Front-end junto à Ada.Tech.
+                    Já tive a oportunidade de participar de cursos como a introdução ao desenvolvimento web, através da Faculdade Descomplica, tendo concluído recentemente o curso Desenvolvimento Front-end junto à Ada.Tech, com uma vaga garantida após um longo e concorrido processo de seleção.
                     </Paragraph>
                     <Paragraph className='topic-paragraph'>
                     Me considero curioso por natureza, valorizando muito o generalismo. Sou capaz de desenvolver fazendo uso de tecnologias como HTML5, CSS3, JavaScript, além de bibliotecas e frameworks como React e BootStrap.

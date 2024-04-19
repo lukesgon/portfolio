@@ -5,8 +5,6 @@
 
     width: fit-content;
 
-    /* border-radius: 0.3rem; */
-
     font-size: 0.7rem;
 }
 
@@ -20,6 +18,26 @@
     .topic-link:hover {
         color: none;
         box-shadow: none;
+    }
+}
+
+@media only screen and (orientation: landscape) and (max-resolution: 240dpi) {
+    .topic-link {
+        font-size: 1rem;
+        
+        padding: 0.3rem;
+        
+        border-radius: 0.3rem;
+    }
+
+    .topic-link:hover {
+        color: var(--thirth-color);
+    }
+}
+
+@media only screen and (orientation: landscape) and (min-resolution: 240dpi) {
+    .topic-link {
+        font-size: 1.2rem;
     }
 }
 

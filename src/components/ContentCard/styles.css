@@ -52,14 +52,25 @@
     
 }
 
-@media only screen and (min-resolution: 240dpi) and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
     #start-menu {
-        right: 63%;
+        right: 60%;
+        height: 100dvh;
+        align-items: end;
+        justify-content: center;
+
+        padding-right: 2rem;
     }
 }
 
+@media only screen and (orientation: landscape) and (min-resolution: 300dpi) {
+        #start-menu {
+            padding-left: 5rem;
+        }
+    }
+
 .topic-section {
-    scroll-margin-top: 7rem;
+    scroll-margin-top: 5rem;
 
     background-color: var(--first-color);
     

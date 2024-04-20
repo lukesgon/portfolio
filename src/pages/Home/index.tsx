@@ -232,37 +232,45 @@ const Home = () => {
                     <CardSubTitle className='topic-subtitle'>Formação Acadêmica</CardSubTitle>
 
                     <ContentSection className='education-display'>
-                        <ContentCard className='educational-card'>
-                            <CardSubTitle className='educational-card-title'>Arquitetura e Urbanismo</CardSubTitle>
-                            <CardSubTitle className='educational-card-subtitle'>Nível: Graduação</CardSubTitle>
-                            <Paragraph>Instituição: UFPel</Paragraph>
-                            <Paragraph>Conclusão: Janeiro/2023</Paragraph>
-                        </ContentCard>
+                        <Link to='https://drive.google.com/file/d/1XroehhSsTYbwQbw7wodLEn1T_joC-Uts/view?usp=sharing' target='_blank' className='topic-link'>
+                            <ContentCard className='educational-card'>
+                                <CardSubTitle className='educational-card-title'>Arquitetura e Urbanismo</CardSubTitle>
+                                <CardSubTitle className='educational-card-subtitle'>Nível: Graduação</CardSubTitle>
+                                <Paragraph>Instituição: UFPel</Paragraph>
+                                <Paragraph>Conclusão: Janeiro/2023</Paragraph>
+                            </ContentCard>
+                        </Link>
                         
-                        <ContentCard className='educational-card'>
-                            <CardSubTitle className='educational-card-title'>Técnico em Edificações</CardSubTitle>
-                            <CardSubTitle className='educational-card-subtitle'>Nível: Técnico</CardSubTitle>
-                            <Paragraph>Instituição: IFSul - Campus Pelotas</Paragraph>
-                            <Paragraph>Conclusão: Janeiro/2023</Paragraph>
-                        </ContentCard>
+                        <Link to='https://drive.google.com/file/d/13VPk6niUMEz8L_lCziIxHj7H9Waf2KNw/view?usp=sharing' target='_blank' className='topic-link'>
+                            <ContentCard className='educational-card'>
+                                <CardSubTitle className='educational-card-title'>Técnico em Edificações</CardSubTitle>
+                                <CardSubTitle className='educational-card-subtitle'>Nível: Técnico</CardSubTitle>
+                                <Paragraph>Instituição: IFSul - Campus Pelotas</Paragraph>
+                                <Paragraph>Conclusão: Janeiro/2023</Paragraph>
+                            </ContentCard>
+                        </Link>
                     </ContentSection>
 
                     <CardSubTitle className='topic-subtitle'>Cursos Livres</CardSubTitle>
 
                     <ContentSection className='education-display'>
-                        <ContentCard className='educational-card'>
-                            <CardSubTitle className='educational-card-title'>Vem Ser Tech</CardSubTitle>
-                            <CardSubTitle className='educational-card-subtitle'>Nível: Formação Livre</CardSubTitle>
-                            <Paragraph>Instituição: Ada.Tech</Paragraph>
-                            <Paragraph>Conclusão: Março/2024</Paragraph>
-                        </ContentCard>
+                        <Link to='https://drive.google.com/file/d/12YxXwK9DZZ5yHM9Hpo46OzSLlZoa-p-y/view?usp=sharing' target='_blank' className='topic-link'>
+                            <ContentCard className='educational-card'>
+                                <CardSubTitle className='educational-card-title'>Vem Ser Tech</CardSubTitle>
+                                <CardSubTitle className='educational-card-subtitle'>Nível: Formação Livre</CardSubTitle>
+                                <Paragraph>Instituição: Ada.Tech</Paragraph>
+                                <Paragraph>Conclusão: Março/2024</Paragraph>
+                            </ContentCard>
+                        </Link>
                     
-                        <ContentCard className='educational-card'>
-                            <CardSubTitle className='educational-card-title'>Introdução ao Desenvolvimento Web</CardSubTitle>
-                            <CardSubTitle className='educational-card-subtitle'>Nível: Formação Livre</CardSubTitle>
-                            <Paragraph>Instituição: Faculdade Descomplica</Paragraph>
-                            <Paragraph>Conclusão: Agosto/2023</Paragraph>
-                        </ContentCard>
+                        <Link to='https://drive.google.com/drive/folders/1ZpvD2oJH_TxNtuMAVnBMGlml4ZOBADIG?usp=sharing' target='_blank' className='topic-link'>
+                            <ContentCard className='educational-card'>
+                                <CardSubTitle className='educational-card-title'>Introdução ao Desenvolvimento Web</CardSubTitle>
+                                <CardSubTitle className='educational-card-subtitle'>Nível: Formação Livre</CardSubTitle>
+                                <Paragraph>Instituição: Faculdade Descomplica</Paragraph>
+                                <Paragraph>Conclusão: Agosto/2023</Paragraph>
+                            </ContentCard>
+                        </Link>
                     </ContentSection>
 
                 </ContentCard>
